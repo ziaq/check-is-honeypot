@@ -78,8 +78,8 @@ It is a small utility that takes as input a key from the Redis database in which
 - node.js
 - ts-node
 - typescript
-- ioredis
 - axios
+- ioredis
 - winston
 
 <!-- GETTING STARTED -->
