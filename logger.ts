@@ -1,11 +1,11 @@
-const winston = require('winston');
+import winston from 'winston';
 const { combine, timestamp, printf } = winston.format;
 
-const customFormat = (customLabel) => printf(({ timestamp, level, message }) => {
+const customFormat = (customLabel: string) => printf(({ timestamp, level, message }) => {
   return `${timestamp} ${level} [${customLabel}]: ${message}`;
 });
 
-const createLoggerWithLabel = (customLabel) => {
+const createLoggerWithLabel = (customLabel: string) => {
   return winston.createLogger({
     format: combine(timestamp(), customFormat(customLabel)),
     transports: [
@@ -25,9 +25,11 @@ const errorLogger = createLoggerWithLabel('error');
 const getPairLogger = createLoggerWithLabel('getPair');
 const getSpecsLogger = createLoggerWithLabel('getSpecs');
 
-module.exports = {
+const logger = {
   info: infoLogger.info.bind(infoLogger),
   error: errorLogger.error.bind(errorLogger),
   getPair: getPairLogger.info.bind(getPairLogger),
   getSpecs: getSpecsLogger.info.bind(getSpecsLogger),
 };
+
+export { logger };
