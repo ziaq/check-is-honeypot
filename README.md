@@ -76,6 +76,8 @@ It is a small utility that takes as input a key from the Redis database in which
 ### Built With
 
 - node.js
+- ts-node
+- typescript
 - axios
 - ioredis
 - winston
@@ -95,8 +97,11 @@ It is a small utility that takes as input a key from the Redis database in which
    ```
 4. Enter your settings in `config/config.js`
    ```js
-   module.exports = {
-      redisUrl: 'redis://localhost:6379', // If you run redis locally
+   export default {
+    redisUrl: {
+      hostname: 'localhost',
+      port: 6379,
+    },
    };
    ```
 
@@ -105,7 +110,7 @@ It is a small utility that takes as input a key from the Redis database in which
 
 1. Run in the terminal while in the project directory 
    ```sh
-   node index.js
+   ts-node index.js
    ```
 2. Add to Redis db0 new writing with key contains address like "0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1"
 3. Then you will get output in console, app.log and db1 in Redis
