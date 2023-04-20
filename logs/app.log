@@ -1,1 +1,237 @@
 2023-04-20T04:01:11.469Z info [info]: Connected to Redis
+2023-04-20T04:05:35.972Z info [info]: Connected to Redis
+2023-04-20T04:19:00.098Z info [response]: Address: del, Response: []
+2023-04-20T04:20:53.704Z info [info]: Connected to Redis
+2023-04-20T04:21:22.632Z info [response]: Address: del, Response: []
+2023-04-20T04:23:31.810Z info [info]: Connected to Redis
+2023-04-20T04:23:47.184Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:28:04.736Z info [info]: Connected to Redis
+2023-04-20T04:28:27.900Z info [response]: Address: del, Response: []
+2023-04-20T04:28:40.781Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:35:10.589Z info [info]: Connected to Redis
+2023-04-20T04:35:20.154Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:35:37.831Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:39:24.335Z info [info]: Connected to Redis
+2023-04-20T04:39:30.386Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:39:41.666Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:39:52.772Z info [info]: Connected to Redis
+2023-04-20T04:39:59.226Z info [response]: Address: del, Response: []
+2023-04-20T04:40:03.930Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:45:04.309Z info [info]: Connected to Redis
+2023-04-20T04:45:10.613Z info [response]: Address: del, Response: []
+2023-04-20T04:45:12.107Z error [error]: Error: Request failed with status code 400
+2023-04-20T04:50:10.716Z info [info]: Connected to Redis
+2023-04-20T04:50:39.275Z info [info]: Connected to Redis
+2023-04-20T04:50:46.500Z info [response]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T04:51:01.242Z info [response]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T04:53:03.670Z info [info]: Connected to Redis
+2023-04-20T04:53:32.017Z info [info]: Connected to Redis
+2023-04-20T04:53:38.289Z info [response]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T04:53:49.848Z info [response]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T05:39:42.711Z info [info]: Connected to Redis
+2023-04-20T05:39:52.954Z error [error]: Error: Cannot access 'response' before initialization
+2023-04-20T05:39:52.955Z info [getPair]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T05:43:01.308Z info [info]: Connected to Redis
+2023-04-20T05:43:09.821Z error [error]: Error: Cannot access 'response' before initialization
+2023-04-20T05:43:09.821Z info [getPair]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T05:45:46.923Z info [info]: Connected to Redis
+2023-04-20T05:45:54.287Z info [getPair]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T05:45:56.265Z error [error]: Error: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+2023-04-20T05:47:31.056Z info [info]: Connected to Redis
+2023-04-20T05:47:43.236Z info [getPair]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, Response: [
+  {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  }
+]
+2023-04-20T05:47:45.130Z info [getSpecs]: Address: 0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1, responseSpecs: {
+  "Token": {
+    "Name": "Wojakie Coin",
+    "Symbol": "WOJAKIE",
+    "Decimals": 9,
+    "Address": "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+  },
+  "WithToken": {
+    "Name": "Ether",
+    "Symbol": "ETH",
+    "Decimals": 18,
+    "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  "IsHoneypot": false,
+  "Error": null,
+  "MaxBuy": null,
+  "MaxSell": null,
+  "BuyTax": 4.999999999996159,
+  "SellTax": 6.071050766764773,
+  "TransferTax": 0,
+  "Flags": null,
+  "BuyGas": 183180,
+  "SellGas": 268583,
+  "Chain": {
+    "ID": 1,
+    "Name": "Ethereum",
+    "ShortName": "ETH",
+    "Currency": "ETH"
+  },
+  "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+  "Pair": {
+    "ChainID": 1,
+    "Pair": {
+      "Name": "Uniswap V2: WETH-WOJAKIE",
+      "Tokens": [
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0xd3ddcabb014dd54135d3de49800aabefc324cad1"
+      ],
+      "Address": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+    },
+    "Reserves": [
+      1209568463950591000,
+      83020780485785620
+    ],
+    "Liquidity": 4707.471122110747,
+    "Router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+  },
+  "PairAddress": "0x46a94d1598223a4c7a644b1c3960762c767e7f86"
+}
