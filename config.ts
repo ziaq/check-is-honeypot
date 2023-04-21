@@ -1,3 +1,4 @@
+// It is fake botToken and chatId, do not try to use it :)
 export default {
   redisHost: 'localhost',
   redisPort: 6379,
