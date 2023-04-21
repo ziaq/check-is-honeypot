@@ -32,4 +32,4 @@ const logger = {
   getSpecs: getSpecsLogger.info.bind(getSpecsLogger),
 };
 
-export { logger };
+export default logger;

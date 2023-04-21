@@ -1,6 +1,6 @@
 export default {
-  redisUrl: {
-    hostname: 'localhost',
-    port: 6379,
-  },
+  redisHost: 'localhost',
+  redisPort: 6379,
+  telegramBotToken: '34543545:sakjdhkHSAKdjhsdsdhaldasdasassffg',
+  telegramChatId: '-43534656546',
 };
