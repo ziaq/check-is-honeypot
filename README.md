@@ -44,7 +44,7 @@ For telegram here is an short set of information depending on the result of the 
     redisPort: 6379,
     telegramBotToken: '34543545:sakjdhkHSAKdjhsdsdhaldasdasassffg',
     telegramChatId: '-43534656546',
-  };
+   };
    ```
 
 <!-- USAGE EXAMPLES -->
