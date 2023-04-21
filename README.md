@@ -10,7 +10,7 @@ After checking you will get output to telegram, log, console and Redis. There ar
 - check on honeypot and proxy calls another contracts
 - other useful information
 
-For telegram here is an short set of information depending on the result of the check:
+For telegram here is an short set of information depending on the result of the checking:
 
 ![Screenshot](./images/screenshot.jpg)
 
