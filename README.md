@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It is a small utility that takes as input a key from the Redis db0 with contract address.
+Utility to check is token a honeypot. That takes as input a key from the Redis db0 with contract address.
 After checking you will get output to log, console and Redis db1. Output to log and console:
    ```sh
    02.05.2023, 18:33:06 :423 info [info]: Retrieved new key 0xCbA3992231CE5b7cc17c07a0C5B440b64f745F55 from db0
