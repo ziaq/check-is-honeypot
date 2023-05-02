@@ -10,7 +10,7 @@ After checking you will get output to log, console and Redis db1. Output to log 
 
 Also if it is not a Honeypot, a new key with the token address and the value 'notAHoneypot' will be set in Redis db1.
 
-![Screenshot](./images/screenshot.jpg)
+![Screenshot](./images/screenshot.png)
 
 ### Built With
 
