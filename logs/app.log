@@ -1,7 +1,0 @@
-2023-04-20T04:01:11.469Z info [info]: Connected to Redis2023-04-20T10:53:07.389Z info [info]: Connected to Redis2023-04-21T20:21:00.559Z info [info]: Connected to Redis
-2023-04-21T20:21:17.695Z info [getPair]: Address: 0xCBF2209173e3B353c2Aa64E7377A9BF9E816b1f4, Response: {"ChainID":1,"Pair":{"Name":"Uniswap V2: WETH-KASS","Tokens":["0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","0xcbf2209173e3b353c2aa64e7377a9bf9e816b1f4"],"Address":"0x96da693b05d435250a142716411bbad384bf428f"},"Reserves":[73851549374572,2.9076041588461427e+26],"Liquidity":0.2820759928362847,"Router":"0x7a250d5630b4cf539739df2c5dacb4c659f2488d"}
-2023-04-21T20:21:18.515Z info [getSpecs]: Address: 0xCBF2209173e3B353c2Aa64E7377A9BF9E816b1f4, isVarifedObj: {"HasProxyCalls":false,"Contracts":{"0xcbf2209173e3b353c2aa64e7377a9bf9e816b1f4":true}}
-2023-04-21T20:21:18.516Z info [getSpecs]: Address: 0xCBF2209173e3B353c2Aa64E7377A9BF9E816b1f4, responseSpecs: <b>Kick Ass / KASS</b>
-ETH 0xcbf2209173e3b353c2aa64e7377a9bf9e816b1f4
-<b>$0</b> 0/0
-buyLimit - sellLimit -

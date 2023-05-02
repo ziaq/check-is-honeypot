@@ -1,28 +1,26 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It is a small utility that takes as input a key from the Redis with contract address.
-After checking you will get output to telegram, log, console and Redis. There are will be:
-- name / symbol
-- second token from pair
-- liquidity
-- buy/sell taxes and limits
-- check on honeypot and proxy calls another contracts
-- other useful information
+It is a small utility that takes as input a key from the Redis db0 with contract address.
+After checking you will get output to log, console and Redis db1. Output to log and console:
+   ```sh
+   02.05.2023, 18:33:06 :423 info [info]: Retrieved new key 0xCbA3992231CE5b7cc17c07a0C5B440b64f745F55 from db0
+   02.05.2023, 18:33:07 :548 info [info]: Honeypot identified token 0xCbA3992231CE5b7cc17c07a0C5B440b64f745F55, honeypotReason HONEYPOT: EXTREMELY HIGH TAXES
+   ```
 
-For telegram here is an short set of information depending on the result of the checking:
+Also if it is not a Honeypot, a new key with the token address and the value 'notAHoneypot' will be set in Redis db1.
 
 ![Screenshot](./images/screenshot.jpg)
 
 ### Built With
 
-- node.js
 - ts-node
 - typescript
 - axios
 - ioredis
 - telegraf
 - winston
+- winston-daily-rotate-file
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -38,7 +36,7 @@ For telegram here is an short set of information depending on the result of the 
    npm install
    ```
 4. Enter your settings in `config.ts`
-   ```js
+   ```ts
    export default {
     redisHost: 'localhost',
     redisPort: 6379,
@@ -46,7 +44,10 @@ For telegram here is an short set of information depending on the result of the 
     telegramChatId: '-43534656546',
    };
    ```
-
+5. Run Redis, set setting
+   ```sh
+   notify-keyspace-events ExA
+   ```  
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -54,8 +55,8 @@ For telegram here is an short set of information depending on the result of the 
    ```sh
    npm start
    ```
-2. Add to Redis db0 new writing with key contains address like "0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1"
-3. Then you will get output in telegram, console, app.log and db1 in Redis
+2. Add to Redis db0 new key with address like "0xD3DDCAbb014Dd54135D3De49800aAbeFc324CAD1", value is empty
+3. Then you will get output in log, console and Redis db1
 
 ## Contact
 
