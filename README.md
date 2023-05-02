@@ -62,4 +62,3 @@ Also if it is not a Honeypot, a new key with the token address and the value 'no
 
 - Twitter https://twitter.com/RomaZiaq
 - Telegram @roma_ziaq
-- Project Link: https://github.com/ziaq/get-token-specifications-etherium
