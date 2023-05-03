@@ -1,0 +1,32 @@
+03.05.2023, 05:33:17 :016 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 05:50:16 :719 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 05:57:12 :036 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 05:59:24 :365 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:12:52 :629 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:12:52 :642 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:12:52 :643 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:17:07 :509 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:17:07 :522 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:17:07 :524 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:17:29 :113 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:17:29 :126 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:17:29 :127 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:20:14 :383 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:20:14 :396 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:20:14 :397 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:21:33 :696 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:21:33 :709 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:21:33 :711 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:27:00 :295 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:27:00 :308 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:27:00 :310 error [error]: Error getting redis settings: undefined
+03.05.2023, 06:30:11 :358 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:30:11 :371 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:30:11 :372 info [info]: Right redis settings, notify-keyspace-events AE
+03.05.2023, 06:31:45 :166 info [info]: Connected to redis, client redisSubscriberDb0
+03.05.2023, 06:31:45 :179 info [info]: Connected to redis, client redisClientDb1
+03.05.2023, 06:31:45 :180 info [info]: Right redis settings, notify-keyspace-events AE
+03.05.2023, 06:32:04 :391 info [info]: Retrieved new key 0x07Dae6eF5f75EFD03313F9e99b45058272053ab3 from db0
+03.05.2023, 06:32:05 :743 info [info]: Honeypot identified token 0x07Dae6eF5f75EFD03313F9e99b45058272053ab3, honeypotReason HONEYPOT DETECTED
+03.05.2023, 06:32:21 :665 info [info]: Retrieved new key 0x0b4D9AC569cf2A6dC281487bf3a81E02f7FBAe3D from db0
+03.05.2023, 06:32:22 :734 info [info]: Not honeypot identified NodeLabs 0x0b4D9AC569cf2A6dC281487bf3a81E02f7FBAe3D set to db1

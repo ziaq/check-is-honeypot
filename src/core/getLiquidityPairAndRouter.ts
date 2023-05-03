@@ -42,8 +42,13 @@ async function getLiquidityPairAndRouter(tokenAddress: string, retries = 2): Pro
     return { pair, router }
 
   } catch (error) {
-    logger.error(`Error in getLiquidityPairAndRouter. ${error.message}`);
-    sendTelegramNotification(`Error in getLiquidityPairAndRouter. ${error.message}`);
+    if (error instanceof Error) {
+      logger.error(`Error in getLiquidityPairAndRouter. ${error.message}`);
+      sendTelegramNotification(`Error in getLiquidityPairAndRouter. ${error.message}`);
+    } else {
+      logger.error(`Error in getLiquidityPairAndRouter. Unknown error`);
+      sendTelegramNotification(`Error in getLiquidityPairAndRouter. Unknown error`);
+    }
     return { pair: null, router: null }
   }
 }

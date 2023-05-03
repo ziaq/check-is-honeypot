@@ -1,12 +1,12 @@
+import { Redis } from 'ioredis';
 import sendTelegramNotification from './sendTelegramNotification';
 import logger from './logger';
-import { Redis } from 'ioredis';
 
-function notifyStatusOfRedis(redisClient: Redis, clientName: string, needCheckSettings: boolean = false): void {
-  redisClient.on('ready', () => {
+async function notifyStatusOfRedis(redisClient: Redis, clientName: string, needCheckSettings = false): Promise<void> {
+  redisClient.on('ready', async () => {
     logger.info(`Connected to redis, client ${clientName}`);
     if (needCheckSettings) {
-      checkRedisSettings(redisClient);
+      await checkRedisSettings(redisClient);
     }
   });
 
@@ -17,14 +17,14 @@ function notifyStatusOfRedis(redisClient: Redis, clientName: string, needCheckSe
   });
 }
 
-function checkRedisSettings(redisClient: Redis): void {
-  redisClient.config('GET', 'notify-keyspace-events', (err: Error, results: string[]) => {
-    if (results[1] === 'AE') {
-      logger.info(`Right redis settings, notify-keyspace-events ${results[1]}`);
-    } else {
-      logger.error(`Wrong redis settings, notify-keyspace-events must be [ AE ] but now ${results[1]}`);
-    }
-  });
+async function checkRedisSettings(redisClient: Redis): Promise<void> {
+  const result = await redisClient.config('GET', 'notify-keyspace-events') as [string, string];
+
+  if (result[1] === 'AE') {
+    logger.info(`Right redis settings, notify-keyspace-events ${result[1]}`);
+  } else {
+    logger.error(`Wrong redis settings, notify-keyspace-events must be [ AE ] but now ${result[1]}`);
+  }
 }
 
 export default notifyStatusOfRedis;

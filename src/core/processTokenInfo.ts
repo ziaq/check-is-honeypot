@@ -103,10 +103,15 @@ async function processTokenInfo(tokenAddress: string, pair: string, router: stri
     logger.info(`Not honeypot identified ${tokenSpecs.token.name} ${tokenAddress} set to db1`);
     
   } catch (error) {
-    logger.error(`Error in processTokenInfo. ${error.message}`);
-    sendTelegramNotification(`Error in processTokenInfo. ${error.message}`);
+    if (error instanceof Error) {
+      logger.error(`Error in processTokenInfo. ${error.message}`);
+      sendTelegramNotification(`Error in processTokenInfo. ${error.message}`);
+    } else {
+      logger.error(`Error in processTokenInfo. Unknown error`);
+      sendTelegramNotification(`Error in processTokenInfo. Unknown error`);
+    }
     return;
   }
 }
-    
+  
 export default processTokenInfo;

@@ -10,7 +10,7 @@ async function listenRedisUpdates() {
       logger.info(`Retrieved new key ${tokenAddress} from db0`);
 
       const { pair, router } = await getLiquidityPairAndRouter(tokenAddress);
-      if (!pair) return;
+      if (!pair || !router) return;
 
       processTokenInfo(tokenAddress, pair, router);
     }
